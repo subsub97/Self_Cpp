@@ -11,6 +11,7 @@ int main() {
 	cin >> n;
 	
 	double a,b,c;
+	// cmath 헤더파일을 사용하여 sin,cos,tan 사용가능
 	a = sin(n*PI/180);
 	b = cos(n*PI/180);
 	c = tan(n*PI/180);
